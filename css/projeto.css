@@ -1,0 +1,25 @@
+.projeto {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.projeto div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-projeto a:hover {
+  color: red;
+}
+
+.img-projeto img {
+  margin-bottom: 2rem;
+}
+
+.img-projeto {
+  padding: 0 1rem;
+}
+
+

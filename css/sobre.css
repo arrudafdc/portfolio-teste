@@ -1,0 +1,49 @@
+.sobre {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 6rem;
+  max-width: 500px;
+  padding: 0 16px;
+}
+
+.sobre p {
+  margin-bottom: 1rem;
+}
+
+.sobre span {
+  background: black;
+  color: white;
+  padding: 0 .2rem;
+}
+
+.links-sobre {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.links-sobre ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.links-sobre a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.links-sobre a:hover {
+  color: #5e5e5e;
+}
+
+@media (max-width: 500px) {
+  .links-sobre, .links-sobre ul {
+    display: block;
+  }
+  .links-sobre ul li {
+    margin-bottom: 1rem;
+  }
+}
+
